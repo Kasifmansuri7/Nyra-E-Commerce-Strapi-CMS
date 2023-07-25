@@ -31,9 +31,9 @@ function Card({ item }) {
 
           <div className="prices">
             <h3>
-              ${item?.attributes.oldPrice || item?.attributes.price * 1.2}
+            &#8377;{item?.attributes.oldPrice || item?.attributes.price * 1.2}
             </h3>
-            <h3>${item?.attributes.price}</h3>
+            <h3>&#8377;{item?.attributes.price}</h3>
           </div>
         </div>
       </div>

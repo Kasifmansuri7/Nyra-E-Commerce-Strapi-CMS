@@ -6,9 +6,9 @@ import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 function Slider() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
-      "https://i.ibb.co/09mwg4C/portrait-handsome-stylish-hipster-lambersexual-model.jpg",
-      "https://i.ibb.co/8rj2gHf/young-woman-beautiful-dress-hat.jpg",
-      "https://i.ibb.co/2vPsYw0/portrait-beautiful-model-sexy-female-dressed-summer-hipster-checkered-shirt-jeans-trendy-girl-posing.jpg",
+    "https://i.ibb.co/09mwg4C/portrait-handsome-stylish-hipster-lambersexual-model.jpg",
+    "https://i.ibb.co/8rj2gHf/young-woman-bxeautiful-dress-hat.jpg",
+    "https://i.ibb.co/2vPsYw0/portrait-beautiful-model-sexy-female-dressed-summer-hipster-checkered-shirt-jeans-trendy-girl-posing.jpg",
   ];
 
   const prevSlide = () => {
@@ -19,7 +19,10 @@ function Slider() {
   };
   return (
     <div className="slider">
-      <div className="container" style={{transform:`translateX(-${currentSlide*100}vw)`}}>
+      <div
+        className="container"
+        style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
+      >
         <img src={data[0]} alt="" />
         <img src={data[1]} alt="" />
         <img src={data[2]} alt="" />

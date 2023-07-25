@@ -65,7 +65,7 @@ function Navbar() {
             </Link>
           </div>
           <div className="item">
-            <Link className="link" to="/">
+            <Link className="link" to="/products/:id">
               Stores
             </Link>
           </div>

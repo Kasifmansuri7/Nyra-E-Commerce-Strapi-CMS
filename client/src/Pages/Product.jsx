@@ -17,7 +17,6 @@ function Product() {
     `/products/${productId}?populate=*`
   );
 
-  console.log(data);
 
   return (
     <div className="product">
